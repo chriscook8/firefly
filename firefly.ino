@@ -49,19 +49,18 @@
   #define tt_release 3
   #define tt_timeout 4
 
-  volatile int photoVal = 0;
-  volatile boolean wingOverride = false;
-  volatile unsigned long lastMillis = 0;
-  volatile unsigned long currentMillis = 0;
+  #define numReadings 20
 
-  volatile int input_number;
-  volatile int ones;
-  volatile int tens;
-  volatile int hundreds;
-  volatile int thousands;
+  uint8_t photoVal = 0;
+  uint8_t photoReadings[numReadings];
+  uint8_t photoCounter = 0;
+  uint16_t photoTotal = 0;
+  uint8_t photoAvg = 0;
+    
+  boolean wingOverride = false;
+  unsigned long lastMillis = 0;
+  unsigned long currentMillis = 0;
 
-
-void(* resetFunc) (void) = 0; //declare reset function @ address 0
 
 void init_ADC() {
 
@@ -73,7 +72,7 @@ void init_ADC() {
   
 }
 
-int get_photo() {
+uint8_t get_photo() {
   ADMUX =
             (1 << ADLAR) |     // left shift result
             (0 << REFS1) |     // Sets ref. voltage to VCC, bit 1
@@ -89,42 +88,38 @@ int get_photo() {
 }
 
 
-void init_blink(int a){
-  for (int i = 0; i < a; i++){
+void init_blink(uint8_t a){
+  for (uint8_t cnt = 0; cnt < a; cnt++ ){
     analogWrite(ledPin, 255);
     delay(500);
     analogWrite(ledPin, 0);
-    delay(300);
+    delay(200);
   }
 }
 
 void firefly_blink(){
-  //blink with nice sinlog fade effect
-  float in, out;
-  for (in = 4.712; in < 10.995; in = in + 0.01)
-  {
-    out = sin(in) * 127.5 + 127.5;
-    analogWrite(ledPin,out);
-    delay(1);
+  if (currentMillis - lastMillis > 8000){
+    //blink with nice sinlog fade effect
+      float in, out;
+      // < 10.995 = one wave, < 17.278 = two
+      for (in = 4.712; in < 17.278; in = in + 0.01)
+      {
+        out = sin(in) * 127.5 + 127.5;
+        analogWrite(ledPin,out);
+        delay(1);
+      }
+      digitalWrite(ledPin, LOW);
+    lastMillis = millis();
   }
-  digitalWrite(ledPin, LOW);
-  delay(100);
-  for (in = 4.712; in < 10.995; in = in + 0.01)
-  {
-    out = sin(in) * 127.5 + 127.5;
-    analogWrite(ledPin,out);
-    delay(1);
-  }
-  digitalWrite(ledPin, LOW);
 }
 
-
-void setup() {
-  
+void setup() {  
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);
-  //pinMode(0, OUTPUT);
 
+  for (uint8_t cnt = 0; cnt < numReadings; cnt++) {
+    photoReadings[cnt] = 0;
+  }
 
   init_ADC();
   tinytouch_init();
@@ -142,63 +137,29 @@ void loop() {
   if (currentMillis < lastMillis) { lastMillis = currentMillis; currentMillis++; } // rollover protection
 
 // get current vals  and do logic
+  delay(100); // don't sample more than 10x a second
   photoVal = get_photo();
+  
+// make photoAvg
+  photoTotal = photoTotal - photoReadings[photoCounter];
+  photoReadings[photoCounter] = photoVal;
+  photoTotal = photoTotal + photoReadings[photoCounter];
+  photoCounter = photoCounter + 1;
+  if (photoCounter >= numReadings) {
+    photoCounter = 0;
+  }
+  photoAvg = photoTotal / numReadings;
+  
   if (tinytouch_sense()==tt_push) { init_blink(2); wingOverride = !wingOverride; }
 
-  if (photoVal < day || wingOverride) { // we think it's nighttime, or the wings have been pressed
-
-    // every 8 seconds, blink
-    if (currentMillis - lastMillis > 8000){
-      firefly_blink();
-      lastMillis = millis();
+  if (photoAvg < day ) { // we think it's nighttime
+    if (photoVal > photoAvg*1.1) {
+      //init_blink(1);
+      lastMillis = lastMillis - 100;
     }
-    
-  } else {
-    //it's day time
-    // occasionally look for wing presses
-    // check to see if it's night yet   
-    
+    firefly_blink();    
+  } else if ( wingOverride) {
+        firefly_blink();
   }
-
-//
-//input_number = photoVal;
-//
-//ones = (input_number%10);
-//tens = ((input_number/10)%10);
-//hundreds = ((input_number/100)%10);
-////thousands = (input_number/1000);
-//
-//for (int a=0; a < hundreds; a++){
-//    analogWrite(ledPin, 255);
-//    delay(500);
-//    analogWrite(ledPin, 0);
-//    delay(500);
-//}
-//
-//    analogWrite(ledPin, 0);
-//    delay(2000);
-//
-//for (int a=0; a < tens; a++){
-//    analogWrite(ledPin, 255);
-//    delay(500);
-//    analogWrite(ledPin, 0);
-//    delay(500);
-//}
-//
-//    analogWrite(ledPin, 0);
-//    delay(2000);
-//
-//for (int a=0; a < ones; a++){
-//    analogWrite(ledPin, 255);
-//    delay(500);
-//    analogWrite(ledPin, 0);
-//    delay(500);
-//}
-//
-//delay(10000);
-
-//tone(0, photoVal);
-//delay(2000);
-//noTone(0);
 
 }
