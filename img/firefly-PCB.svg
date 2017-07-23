@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   shape-rendering="crispEdges"
+   width="2.516in"
+   height="1.889in"
+   viewBox="4050.3 3022.1 251.6 188.9"
+   id="svg4494"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="firefly-PCB.svg">
+  <metadata
+     id="metadata4812">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4810" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1249"
+     inkscape:window-height="698"
+     id="namedview4808"
+     showgrid="false"
+     inkscape:zoom="1.03"
+     inkscape:cx="113.22"
+     inkscape:cy="85.005003"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4494" />
+  <style
+     type="text/css"
+     id="style4496">
+      path, polyline, polygon { stroke-linejoin: round;}
+      path, polyline, polygon, line { stroke-linecap: round;}
+      rect, circle, ellipse, polyline, polygon, line, path { shape-rendering: crispEdges;}
+      *[layerid=&quot;0&quot;] { stroke: #FFFFFF; FILL: #FFFFFF;}
+        *[layerid=&quot;1&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;2&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;3&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;4&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;5&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;6&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;7&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;8&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;9&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;10&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;11&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;12&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;13&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;14&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;15&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;21&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;22&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;23&quot;] { stroke: #000000; fill: #000000;}        *[layerid=&quot;24&quot;] { stroke: #000000; fill: #000000;}          *[fill=&quot;none&quot;] { fill: none; }
+      *[stroke=&quot;none&quot;] { stroke: none;}
+      g[c_partid=&quot;part_pad&quot;] &gt; * + circle { fill: #FFFFFF;}
+      g[c_partid=&quot;part_via&quot;] &gt; * + circle { fill: #FFFFFF;}
+	g[c_partid=&quot;part_pad&quot;] &gt; polyline:nth-child(2) {stroke: #FFFFFF;}
+	  </style>
+  <g
+     id="g6085">
+    <rect
+       x="4050.3"
+       y="3022.1001"
+       width="251.60001"
+       height="188.89999"
+       id="rect4500"
+       style="fill:#ffffff;stroke:none;shape-rendering:crispEdges" />
+    <path
+       d="m 4061,3120 a 104.26,104.26 0 0 1 94,-44"
+       layerid="10"
+       id="path4502"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4069,3130 a 13.112,13.112 0 0 1 13,18"
+       layerid="10"
+       id="path4504"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4155,3076 a 10.58,10.58 0 0 1 6,-16"
+       layerid="10"
+       id="path4506"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4145,3048 a 7.649,7.649 0 1 1 3,-15"
+       layerid="10"
+       id="path4508"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4148,3033 a 34.231,34.231 0 0 1 27,20"
+       layerid="10"
+       id="path4510"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4176,3053 a 26.79,26.79 0 0 1 27,-19"
+       layerid="10"
+       id="path4512"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4203,3034 a 7.616,7.616 0 0 1 0,15"
+       layerid="10"
+       id="path4514"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4203,3049 a 10.257,10.257 0 0 0 -12,11"
+       layerid="10"
+       id="path4516"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4191,3060 a 9.88,9.88 0 0 1 6,16"
+       layerid="10"
+       id="path4518"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4197,3076 a 100.318,100.318 0 0 1 92,43"
+       layerid="10"
+       id="path4520"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4281,3130 a 13.669,13.669 0 0 0 -13,18"
+       layerid="10"
+       id="path4522"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4268,3148 a 55.642,55.642 0 0 1 -44,-6"
+       layerid="10"
+       id="path4524"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4224,3142 a 52.277,52.277 0 0 1 -49,59"
+       layerid="10"
+       id="path4526"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4174,3201 a 51.309,51.309 0 0 1 -47,-60"
+       layerid="10"
+       id="path4528"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4145,3048 a 15.91,15.91 0 0 1 16,12"
+       layerid="10"
+       id="path4530"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4082,3148 a 83.568,83.568 0 0 0 45,-7"
+       layerid="10"
+       id="path4532"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4061,3120 a 8.394,8.394 0 0 0 8,10"
+       layerid="10"
+       id="path4534"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4289,3119 a 7.249,7.249 0 0 1 -8,11"
+       layerid="10"
+       id="path4536"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4160.3 3133.4 4164.803 3133.4"
+       layerid="1"
+       id="polyline4548"
+       style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <g
+       id="gge23"
+       layerid="3"
+       c_partid="part_svg"
+       c_shapetype="group"
+       style="fill:#000000;stroke:#000000">
+      <path
+         d="m 4147.01,3039.01 c -1.6,1.9 -1.6,2.2 -0.1,3.9 1.1,1.3 1.3,1.4 3.5,0.7 2,-0.6 2.6,-0.5 5.4,0.9 4,2.1 8.7,6.5 11,10.4 2.3,4 2.2,5 -0.4,6.2 -7.1,3.4 -8.5,12.7 -3,18.9 2.5,2.7 5.3,3.7 10.9,3.8 8.1,0 13.1,-3.2 14.8,-9.6 1.5,-4.8 0.7,-6.6 -4.8,-10.8 -2.6,-2.1 -4,-3.7 -4,-4.5 0,-2.9 7.7,-12.1 12,-14.3 2.3,-1.2 6.5,-1.7 9,-1 0.7,0.2 0.9,-0.4 1.1,-2 0.2,-2.8 -1,-3.9 -4.5,-3.8 -6.6,0.1 -13.1,5.3 -17.5,14.1 -4.4,8.7 -6.5,9.2 -10.5,1.9 -5,-9.2 -9.7,-13.9 -15.4,-15.6 -4.2,-1.3 -6,-1.2 -7.5,0.8 m 9.7,1.2 c 3.5,1.6 8.2,6.8 11.5,12.8 4.2,7.5 6.4,8.8 9.6,5.4 l 1.6,-1.8 -0.2,1.8 c -0.3,1.8 0.6,3 6,7.3 3.5,2.7 3.9,4.3 2.8,8.3 -1.1,3.6 -3.2,6 -6.5,7.4 -11,4.5 -21.8,-2 -20,-12 0.5,-3.3 4.1,-7.2 6.9,-7.7 1.7,-0.4 1.8,-0.6 1.4,-2.4 -0.8,-3.7 -2.7,-6.9 -6.4,-10.6 -4.4,-4.4 -10.2,-7.5 -12.1,-6.4 -1.2,0.6 -3.7,0.8 -3.7,0.3 0,-0.1 -0.2,-0.6 -0.4,-1.2 -0.1,-0.5 0.2,-1.3 0.8,-1.9 1.3,-1.3 5.1,-1 8.7,0.7 m 44.7,-0.3 c 0.9,1.5 0.1,2.1 -3.3,2.1 -2,0.1 -4.5,0.6 -5.7,1.1 -2.8,1.2 -7.1,5.2 -10,9.4 -1.3,1.8 -2.4,3.3 -2.6,3.3 -0.1,0 0.8,-1.9 2.1,-4.2 2.3,-4.5 5.5,-8.4 8.4,-10.2 4,-2.6 9.9,-3.3 11.1,-1.5 m -0.2,40 c -12.6,1.5 -15,7.1 -8.6,20 7.2,14.9 21.4,27.8 41.1,37.7 4.7,2.3 16.3,6.1 22.3,7.2 8.5,1.6 10.2,-3.1 5.4,-15.1 -1,-2.5 -1.3,-3.9 -0.9,-4.3 0.4,-0.4 4.4,-0.7 9.4,-0.7 9.7,-0.1 11.7,-0.7 13.2,-3.5 2.1,-4 0.2,-7.4 -9,-16.2 -10.6,-10 -20.3,-15.8 -33.4,-20.2 -11.7,-3.9 -29.1,-6 -39.5,-4.9 m -75.2,0.9 c -6.2,1.1 -16.4,3.7 -20.3,5.2 -10,4 -20.7,10.6 -27.9,17.2 -5.2,4.9 -11.5,12.5 -12.1,14.8 -0.5,2.1 0.6,4.3 2.8,5.4 2.9,1.5 10.4,2.4 14.7,1.8 6.8,-1 7.5,0.1 4.9,7.6 -2.8,8 -2.7,11.6 0.5,12.3 2.3,0.6 9.6,-0.7 16.6,-3.1 20,-6.7 34.5,-16.9 46.7,-33 7.6,-10.1 10,-17.3 7.8,-23.2 -1.2,-3 -1.6,-3.2 -9,-4.9 -4.9,-1.2 -18.1,-1.2 -24.7,-0.1 m 18.2,0.4 c 3.1,0.3 7.3,1 9.4,1.6 3.6,1 4.1,1.3 4.9,3.2 1.3,3.1 0.8,8.3 -1.4,12.7 -4.2,8.9 -17.5,23.6 -27.6,30.2 -10.4,7 -25.9,13.4 -35.8,14.8 -7.4,1 -8,-0.3 -4.8,-10 3.2,-9.5 2.7,-10.3 -5.4,-9.7 -9.5,0.8 -16.8,-1.3 -16.8,-4.8 0,-1.8 4.9,-8.2 10.2,-13.5 13.8,-13.6 34.2,-22.6 55.8,-24.5 3,-0.2 5.5,-0.5 5.6,-0.6 0.2,0 2.8,0.2 5.9,0.6 m 73.5,0 c 21.5,2.1 38.3,9.2 53.8,22.9 9.1,8.1 11.9,12.1 11,15.7 -0.8,3 -2.9,3.6 -12.4,3.8 -4.7,0 -9.4,0.4 -10.3,0.7 l -1.6,0.6 2.1,5.3 c 2.9,7 3.3,10.9 1.6,12.6 -1.8,1.7 -2.9,1.7 -10,-0.2 -11.7,-2.9 -15.8,-4.7 -28.4,-12.2 -6.7,-4 -9.5,-6.1 -14.4,-10.9 -10.8,-10.6 -18,-21.7 -18.7,-29.3 -0.4,-2.9 -0.2,-3.4 1.3,-5.1 3.3,-4 11.9,-5.2 26,-3.9 m -49.5,7.9 c -1.8,1.1 -3.1,3.5 -6,10.9 -1.8,4.8 -4,8.3 -9.2,14.9 -3.9,4.9 -4.2,5.5 -4.1,7.8 0.2,2.6 0.3,2.6 4.9,4.9 6.7,3.4 12.9,4.8 21.2,4.8 7.4,0 12.2,-0.9 19.1,-3.8 5.3,-2.2 7.2,-3.8 7.2,-6.2 0,-2.4 -0.5,-3.2 -5.9,-9.5 -2.6,-3 -4.6,-5.6 -4.6,-5.9 0,-0.2 -0.7,-1.5 -1.6,-2.8 -0.8,-1.2 -2,-3.8 -2.5,-5.7 -1.3,-4.2 -3.8,-9.1 -5.1,-9.7 -0.5,-0.2 -3.4,-0.5 -6.4,-0.6 -4.1,-0.1 -5.7,0.1 -7,0.9 m 12.9,0.8 c 1.3,0.7 2.4,2.8 4.1,7.9 1.7,5.5 4.8,10.7 9.3,15.8 6.8,7.8 7.2,10 2.1,12.6 -13.9,6.9 -29.9,7 -43.3,0.1 -4.9,-2.5 -4.8,-4.1 0.8,-11 5.1,-6.2 7.9,-10.9 9.8,-16.1 3.2,-9.3 4,-9.9 11.1,-9.9 2.7,0 5.4,0.3 6.1,0.6 m -37.2,41.2 c -1.4,2.8 -0.3,16.7 2.1,27 2.8,11.6 8,21.5 15,28.6 5.7,5.6 8.7,7.2 14,7.2 5.7,0 9.2,-1.7 14.6,-7.1 8.9,-9 14.2,-21.9 16.6,-40.6 1.2,-9.6 1.2,-12.7 -0.5,-14.5 -1.2,-1.5 -2.6,-1.4 -5.2,0.1 -6.4,3.8 -16.4,6.2 -25.8,6.2 -10,0 -20.6,-2.7 -25.5,-6.5 -2.4,-1.8 -4.4,-2 -5.3,-0.4 m 5.4,1.9 c 3.1,2.2 10.4,4.6 16.4,5.7 10.3,1.7 24.6,-0.4 33.7,-5 2,-1.1 4.1,-1.9 4.5,-1.9 4,0 1.3,22.6 -4.5,37.5 -4.9,12.8 -15.8,23.6 -23.8,23.6 -4.1,0 -6.9,-1.1 -10.8,-4.4 -12.3,-10.2 -20.3,-30.5 -20.3,-51.2 0,-6.7 0.5,-7.2 4.8,-4.3 m -1.1,6.1 c -1,2 -0.7,5.3 1.2,13.8 2.1,9 4.3,15.1 7.7,21.2 2.7,4.8 10,12.8 11.4,12.5 1.2,-0.2 1.2,-0.7 -0.8,-7.5 -2.3,-7.8 -3.4,-16 -3.4,-24.9 0,-11.1 -1.4,-13.6 -7.9,-15.1 -6.2,-1.3 -7.4,-1.3 -8.2,0 m 7.4,1.2 c 6.7,1.3 7.2,2.3 7.6,16.2 0.3,10.8 1.7,18.9 4.4,26.4 l 0.9,2.6 -1.6,-1 c -4.6,-3 -11.5,-14.8 -14.3,-23.9 -3,-10.2 -4.6,-19.8 -3.3,-21 0.2,-0.3 1.1,-0.3 1.9,-0.1 0.9,0.1 2.9,0.5 4.4,0.8"
+         id="gge24"
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4552"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4176"
+         cy="3085"
+         id="ellipse4554"
+         r="3.93701"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4176"
+         cy="3085"
+         r="2.952755"
+         id="circle4556"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4558"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4176"
+         cy="3167.5"
+         id="ellipse4560"
+         r="3.93701"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4176"
+         cy="3167.5"
+         r="2.952755"
+         id="circle4562"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <path
+       d="m 4175.27,3117.7 3.06,0 0.62,-0.2 0.41,-0.41 0.2,-0.62 0,-0.41 -0.2,-0.61 -0.41,-0.41 -0.62,-0.2 -3.06,0 m 0,-1.76 0,-2.25 1.63,1.22 0,-0.61 0.21,-0.41 0.2,-0.2 0.61,-0.21 0.41,0 0.62,0.21 0.41,0.41 0.2,0.61 0,0.61 -0.2,0.62 -0.21,0.2 -0.41,0.21"
+       layerid="3"
+       id="path4564"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4185.3 3108.4 4185.3 3148.4"
+       layerid="3"
+       id="polyline4566"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4185.3 3108.4 4169.3 3108.4"
+       layerid="3"
+       id="polyline4568"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4185.3 3148.4 4165.3 3148.4"
+       layerid="3"
+       id="polyline4570"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4165.3 3108.4 4165.3 3148.4"
+       layerid="3"
+       id="polyline4572"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4165.3 3108.4 4169.3 3108.4"
+       layerid="3"
+       id="polyline4574"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4169.3 3108.4 4171.3 3108.4"
+       layerid="3"
+       id="polyline4576"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4578"
+       style="fill:#000000;stroke:#000000">
+      <polygon
+         points="4156.9,3116.8 4156.9,3110 4163.7,3110 4163.7,3116.8 "
+         id="polygon4580"
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         cx="4160.2998"
+         cy="3113.3999"
+         r="1.6"
+         id="circle4582"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4584"
+       style="fill:#000000;stroke:#000000">
+      <polygon
+         points="4156.9,3126.8 4156.9,3120 4163.7,3120 4163.7,3126.8 "
+         id="polygon4586"
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         cx="4160.2998"
+         cy="3123.3999"
+         r="1.6"
+         id="circle4588"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4590"
+       style="fill:#000000;stroke:#000000">
+      <polygon
+         points="4156.9,3136.8 4156.9,3130 4163.7,3130 4163.7,3136.8 "
+         id="polygon4592"
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         cx="4160.2998"
+         cy="3133.3999"
+         r="1.6"
+         id="circle4594"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4596"
+       style="fill:#000000;stroke:#000000">
+      <polygon
+         points="4156.9,3146.8 4156.9,3140 4163.7,3140 4163.7,3146.8 "
+         id="polygon4598"
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         cx="4160.2998"
+         cy="3143.3999"
+         r="1.6"
+         id="circle4600"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4602"
+       style="fill:#000000;stroke:#000000">
+      <polygon
+         points="4186.9,3146.8 4186.9,3140 4193.7,3140 4193.7,3146.8 "
+         id="polygon4604"
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         cx="4190.2998"
+         cy="3143.3999"
+         r="1.6"
+         id="circle4606"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4608"
+       style="fill:#000000;stroke:#000000">
+      <polygon
+         points="4186.9,3136.8 4186.9,3130 4193.7,3130 4193.7,3136.8 "
+         id="polygon4610"
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         cx="4190.2998"
+         cy="3133.3999"
+         r="1.6"
+         id="circle4612"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4614"
+       style="fill:#000000;stroke:#000000">
+      <polygon
+         points="4186.9,3126.8 4186.9,3120 4193.7,3120 4193.7,3126.8 "
+         id="polygon4616"
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         cx="4190.2998"
+         cy="3123.3999"
+         r="1.6"
+         id="circle4618"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4620"
+       style="fill:#000000;stroke:#000000">
+      <polygon
+         points="4186.9,3116.8 4186.9,3110 4193.7,3110 4193.7,3116.8 "
+         id="polygon4622"
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         cx="4190.2998"
+         cy="3113.3999"
+         r="1.6"
+         id="circle4624"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <circle
+       cx="4170.2998"
+       cy="3113.3999"
+       r="2.8"
+       layerid="3"
+       id="circle4626"
+       style="fill:none;stroke:#000000;stroke-width:1;shape-rendering:crispEdges" />
+    <path
+       d="m 4124.039,3101.517 0,4.29 m 0,-4.29 1.84,0 0.61,0.2 0.21,0.2 0.2,0.41 0,0.41 -0.2,0.41 -0.21,0.21 -0.61,0.2 -1.84,0 m 1.43,0 1.43,2.25 m 3.4,-4.29 -2.05,2.86 3.07,0 m -1.02,-2.86 0,4.29"
+       layerid="3"
+       id="path4628"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4116.602 3112.75 4135.396 3105.91"
+       layerid="3"
+       id="polyline4630"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4135.396 3105.91 4136.422 3108.729"
+       layerid="3"
+       id="polyline4632"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4136.422 3108.729 4137.448 3111.548"
+       layerid="3"
+       id="polyline4634"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4137.448 3111.548 4118.654 3118.389"
+       layerid="3"
+       id="polyline4636"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4118.654 3118.389 4117.628 3115.57"
+       layerid="3"
+       id="polyline4638"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4117.628 3115.57 4116.602 3112.75"
+       layerid="3"
+       id="polyline4640"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4136.422 3108.729 4137.361 3108.387"
+       layerid="3"
+       id="polyline4642"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4117.628 3115.57 4116.688 3115.912"
+       layerid="3"
+       id="polyline4644"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4646"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4112.9302"
+         cy="3117.28"
+         id="ellipse4648"
+         r="3.7"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4112.9302"
+         cy="3117.28"
+         r="1.77"
+         id="circle4650"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4652"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4141.1201"
+         cy="3107.02"
+         id="ellipse4654"
+         r="3.7"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4141.1201"
+         cy="3107.02"
+         r="1.77"
+         id="circle4656"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <path
+       d="m 4228.04,3100.08 0,4.29 m 0,-4.29 1.84,0 0.61,0.2 0.21,0.2 0.2,0.41 0,0.41 -0.2,0.41 -0.21,0.21 -0.61,0.2 -1.84,0 m 1.43,0 1.43,2.25 m 1.76,-4.29 2.25,0 -1.22,1.63 0.61,0 0.41,0.21 0.2,0.2 0.21,0.61 0,0.41 -0.21,0.62 -0.41,0.41 -0.61,0.2 -0.61,0 -0.62,-0.2 -0.2,-0.21 -0.21,-0.41"
+       layerid="3"
+       id="path4658"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4216.688 3104.47 4235.482 3111.31"
+       layerid="3"
+       id="polyline4660"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4235.482 3111.31 4234.456 3114.129"
+       layerid="3"
+       id="polyline4662"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4234.456 3114.129 4233.43 3116.948"
+       layerid="3"
+       id="polyline4664"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4233.43 3116.948 4214.636 3110.108"
+       layerid="3"
+       id="polyline4666"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4214.636 3110.108 4215.662 3107.289"
+       layerid="3"
+       id="polyline4668"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4215.662 3107.289 4216.688 3104.47"
+       layerid="3"
+       id="polyline4670"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4234.456 3114.129 4235.395 3114.471"
+       layerid="3"
+       id="polyline4672"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4215.662 3107.289 4214.722 3106.947"
+       layerid="3"
+       id="polyline4674"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4676"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4210.96"
+         cy="3105.5801"
+         id="ellipse4678"
+         r="3.7"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4210.96"
+         cy="3105.5801"
+         r="1.77"
+         id="circle4680"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4682"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4239.1499"
+         cy="3115.8401"
+         id="ellipse4684"
+         r="3.7"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4239.1499"
+         cy="3115.8401"
+         r="1.77"
+         id="circle4686"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <path
+       d="m 4215.89,3082.81 0,4.29 m 0,-4.29 1.84,0 0.61,0.2 0.21,0.2 0.2,0.41 0,0.41 -0.2,0.41 -0.21,0.21 -0.61,0.2 -1.84,0 m 1.43,0 1.43,2.25 m 1.35,-3.48 0.41,-0.2 0.62,-0.61 0,4.29"
+       layerid="3"
+       id="path4688"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4203.435 3085.524 4222.754 3090.701"
+       layerid="3"
+       id="polyline4690"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4222.754 3090.701 4221.977 3093.599"
+       layerid="3"
+       id="polyline4692"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4221.977 3093.599 4221.201 3096.496"
+       layerid="3"
+       id="polyline4694"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4221.201 3096.496 4201.882 3091.32"
+       layerid="3"
+       id="polyline4696"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4201.882 3091.32 4202.659 3088.422"
+       layerid="3"
+       id="polyline4698"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4202.659 3088.422 4203.435 3085.524"
+       layerid="3"
+       id="polyline4700"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4221.977 3093.599 4222.943 3093.857"
+       layerid="3"
+       id="polyline4702"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4202.659 3088.422 4201.693 3088.163"
+       layerid="3"
+       id="polyline4704"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4706"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4197.8301"
+         cy="3087.1299"
+         id="ellipse4708"
+         r="3.7"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4197.8301"
+         cy="3087.1299"
+         r="1.77"
+         id="circle4710"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4712"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4226.8101"
+         cy="3094.8899"
+         id="ellipse4714"
+         r="3.7"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4226.8101"
+         cy="3094.8899"
+         r="1.77"
+         id="circle4716"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <path
+       d="m 4133.11,3082.48 0,4.29 m 0,-4.29 1.84,0 0.61,0.2 0.21,0.2 0.2,0.41 0,0.41 -0.2,0.41 -0.21,0.21 -0.61,0.2 -1.84,0 m 1.43,0 1.43,2.25 m 1.56,-3.27 0,-0.21 0.2,-0.41 0.21,-0.2 0.41,-0.2 0.81,0 0.41,0.2 0.21,0.2 0.2,0.41 0,0.41 -0.2,0.41 -0.41,0.62 -2.05,2.04 2.87,0"
+       layerid="3"
+       id="path4718"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4127.9 3091.699 4147.218 3086.523"
+       layerid="3"
+       id="polyline4720"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4147.218 3086.523 4147.995 3089.421"
+       layerid="3"
+       id="polyline4722"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4147.995 3089.421 4148.771 3092.319"
+       layerid="3"
+       id="polyline4724"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4148.771 3092.319 4129.453 3097.495"
+       layerid="3"
+       id="polyline4726"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4129.453 3097.495 4128.676 3094.597"
+       layerid="3"
+       id="polyline4728"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4128.676 3094.597 4127.9 3091.699"
+       layerid="3"
+       id="polyline4730"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4147.995 3089.421 4148.961 3089.162"
+       layerid="3"
+       id="polyline4732"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4128.676 3094.597 4127.71 3094.856"
+       layerid="3"
+       id="polyline4734"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4736"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4123.8501"
+         cy="3095.8899"
+         id="ellipse4738"
+         r="3.7"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4123.8501"
+         cy="3095.8899"
+         r="1.77"
+         id="circle4740"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4742"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4152.8198"
+         cy="3088.1299"
+         id="ellipse4744"
+         r="3.7"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4152.8198"
+         cy="3088.1299"
+         r="1.77"
+         id="circle4746"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <path
+       d="m 4186.55,3182 4.29,0 m 0,0 0,-2.45 m -4.29,-1.35 4.29,0 m -4.29,0 0,-2.66 m 2.04,2.66 0,-1.64 m 2.25,1.64 0,-2.66 m -4.29,-1.35 4.29,0 m -4.29,0 0,-1.44 0.2,-0.61 0.41,-0.41 0.41,-0.2 0.61,-0.21 1.02,0 0.62,0.21 0.41,0.2 0.41,0.41 0.2,0.61 0,1.44 m -3.48,-4.22 -0.2,-0.41 -0.61,-0.61 4.29,0"
+       layerid="3"
+       id="path4748"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4167.51,3186.99 a 9,9 0 1 0 0,-9.98"
+       layerid="3"
+       id="path4750"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4752"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4180"
+         cy="3182"
+         id="ellipse4754"
+         r="3.25"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4180"
+         cy="3182"
+         r="1.9"
+         id="circle4756"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4758"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4170"
+         cy="3182"
+         id="ellipse4760"
+         r="3.25"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4170"
+         cy="3182"
+         r="1.9"
+         id="circle4762"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <polyline
+       points="4167.51 3177.008 4167.489 3187.039"
+       layerid="3"
+       id="polyline4764"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4172.19,3073.07 0,3.06 0.2,0.62 0.41,0.41 0.62,0.2 0.41,0 0.61,-0.2 0.41,-0.41 0.2,-0.62 0,-3.06 m 1.56,1.02 0,-0.21 0.2,-0.41 0.21,-0.2 0.41,-0.2 0.81,0 0.41,0.2 0.21,0.2 0.2,0.41 0,0.41 -0.2,0.41 -0.41,0.62 -2.05,2.04 2.87,0"
+       layerid="3"
+       id="path4766"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4184.6 3069.4 4184.6 3072.6"
+       layerid="3"
+       id="polyline4768"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4184.6,3072.6 a 6.999986,6.999986 0 0 1 -7,7"
+       layerid="3"
+       id="path4770"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4177.6 3079.6 4172.4 3079.6"
+       layerid="3"
+       id="polyline4772"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4172.4,3079.6 a 6.999986,6.999986 0 0 1 -7,-7"
+       layerid="3"
+       id="path4774"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4165.4 3072.6 4165.4 3069.4"
+       layerid="3"
+       id="polyline4776"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4165.4,3069.4 a 6.999986,6.999986 0 0 1 7,-7"
+       layerid="3"
+       id="path4778"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <polyline
+       points="4172.4 3062.4 4177.6 3062.4"
+       layerid="3"
+       id="polyline4780"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4177.6,3062.4 a 6.999986,6.999986 0 0 1 7,7"
+       layerid="3"
+       id="path4782"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4784"
+       style="fill:#000000;stroke:#000000">
+      <polygon
+         points="4171.25,3073.75 4165.75,3073.75 4165.75,3068.25 4171.25,3068.25 "
+         id="polygon4786"
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         cx="4168.5"
+         cy="3071"
+         r="1.5"
+         id="circle4788"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4790"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4181.5"
+         cy="3071"
+         id="ellipse4792"
+         r="2.75"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4181.5"
+         cy="3071"
+         r="1.5"
+         id="circle4794"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       c_partid="part_pad"
+       c_type="pinpart"
+       layerid="11"
+       c_etype="pinpart"
+       id="g4796"
+       style="fill:#000000;stroke:#000000">
+      <circle
+         cx="4175.6699"
+         cy="3061.6201"
+         id="ellipse4798"
+         r="3.937"
+         style="stroke-width:0;shape-rendering:crispEdges" />
+      <circle
+         cx="4175.6699"
+         cy="3061.6201"
+         r="2.5590501"
+         id="circle4800"
+         style="fill:#ffffff;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <path
+       d="m 4085.78,3111.43 0,7.63 m 5.09,-7.63 0,7.63 m -5.09,-4 5.09,0 m 7.49,-2.54 -0.73,-0.73 -1.09,-0.36 -1.45,0 -1.09,0.36 -0.73,0.73 0,0.72 0.36,0.73 0.37,0.37 0.73,0.36 2.18,0.73 0.72,0.36 0.37,0.36 0.36,0.73 0,1.09 -0.73,0.73 -1.09,0.36 -1.45,0 -1.09,-0.36 -0.73,-0.73 m 12.95,-4.73 -0.37,-0.72 -0.72,-0.73 -0.73,-0.36 -1.46,0 -0.72,0.36 -0.73,0.73 -0.36,0.72 -0.37,1.1 0,1.81 0.37,1.09 0.36,0.73 0.73,0.73 0.72,0.36 1.46,0 0.73,-0.36 0.72,-0.73 0.37,-0.73"
+       layerid="3"
+       id="path4802"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.57480001;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <path
+       d="m 4093.64,3125.74 0,-0.36 0.37,-0.73 0.36,-0.36 0.73,-0.37 1.45,0 0.73,0.37 0.36,0.36 0.37,0.73 0,0.72 -0.37,0.73 -0.72,1.09 -3.64,3.64 5.09,0 m 4.58,-7.64 -1.09,0.37 -0.73,1.09 -0.36,1.81 0,1.1 0.36,1.81 0.73,1.09 1.09,0.37 0.73,0 1.09,-0.37 0.73,-1.09 0.36,-1.81 0,-1.1 -0.36,-1.81 -0.73,-1.09 -1.09,-0.37 -0.73,0 m 5.31,1.46 0.73,-0.37 1.09,-1.09 0,7.64 m 7.49,-7.64 -3.64,7.64 m -1.45,-7.64 5.09,0"
+       layerid="3"
+       id="path4804"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.57480001;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    <g
+       id="gge29"
+       layerid="3"
+       c_partid="part_svg"
+       c_shapetype="group"
+       layer_front="0"
+       layer_show="1"
+       style="fill:#000000;stroke:#000000">
+      <path
+         d="m 4098,3092.21 c -0.16,0.06 -0.3,0.25 -0.3,0.38 0,0.06 0.03,0.16 0.08,0.24 0.07,0.13 0.07,0.14 -0.11,0.41 -0.27,0.42 -0.39,0.78 -0.42,1.24 -0.02,0.4 -0.01,0.42 0.19,0.81 0.37,0.7 0.42,0.85 0.45,1.52 0.03,0.79 -0.05,1.13 -0.3,1.23 -0.09,0.03 -0.17,0.11 -0.21,0.2 -0.03,0.08 -0.14,0.2 -0.24,0.26 -0.32,0.2 -0.42,0.5 -0.29,0.82 0.03,0.06 -0.03,0.12 -0.21,0.24 -0.35,0.23 -0.92,0.85 -1.17,1.27 -0.26,0.45 -0.53,1.11 -0.63,1.58 -0.3,1.29 -1.05,2.63 -1.73,3.07 -0.84,0.53 -1.23,1.26 -1.02,1.88 0.27,0.78 1.12,1.3 2.62,1.6 1.11,0.23 1.65,0.26 3.82,0.26 2.15,0 2.8,-0.05 3.9,-0.28 0.63,-0.13 1,-0.25 1.53,-0.5 0.53,-0.26 0.84,-0.53 1.04,-0.94 0.14,-0.29 0.16,-0.36 0.13,-0.62 -0.05,-0.55 -0.37,-1.02 -0.95,-1.39 -0.16,-0.1 -0.33,-0.25 -0.39,-0.33 -0.11,-0.14 -0.3,-0.57 -0.44,-0.98 -0.04,-0.12 -0.23,-0.68 -0.42,-1.24 -0.62,-1.79 -0.9,-2.36 -1.39,-2.88 -0.16,-0.17 -0.44,-0.4 -0.62,-0.51 l -0.33,-0.21 0.01,-0.25 c 0.01,-0.29 -0.1,-0.47 -0.35,-0.61 -0.08,-0.04 -0.18,-0.15 -0.21,-0.23 -0.03,-0.1 -0.12,-0.18 -0.23,-0.22 -0.16,-0.07 -0.19,-0.11 -0.24,-0.37 -0.14,-0.66 -0.05,-1.5 0.22,-2.03 0.37,-0.7 0.36,-0.68 0.36,-1.08 0,-0.44 -0.1,-0.79 -0.38,-1.25 l -0.19,-0.32 0.1,-0.18 c 0.1,-0.17 0.1,-0.19 0.03,-0.35 -0.05,-0.1 -0.15,-0.2 -0.22,-0.23 -0.2,-0.07 -1.32,-0.09 -1.49,-0.01 m -0.71,9.26 c 0,0.04 -0.03,0.08 -0.08,0.08 -0.04,0 -0.1,0.05 -0.13,0.12 -0.03,0.07 -0.07,0.12 -0.09,0.11 -0.06,-0.04 -0.19,0.1 -0.19,0.2 0,0.05 0.08,0.21 0.18,0.35 0.19,0.27 0.18,0.38 -0.05,0.44 -0.08,0.02 -0.12,0.06 -0.1,0.12 0.01,0.06 -0.01,0.08 -0.06,0.06 -0.05,-0.01 -0.11,0 -0.14,0.04 -0.09,0.12 -0.04,0.3 0.12,0.37 0.07,0.04 0.19,0.15 0.27,0.24 0.07,0.1 0.16,0.18 0.2,0.18 0.13,0 0.12,0.15 -0.01,0.27 -0.07,0.06 -0.14,0.17 -0.15,0.24 -0.01,0.06 -0.02,0.14 -0.02,0.17 -0.03,0.11 0,0.18 0.07,0.18 0.05,0 0.08,-0.02 0.08,-0.04 0,-0.02 0.62,-0.04 1.37,-0.04 0.75,0 1.37,0.02 1.37,0.04 0,0.02 0.03,0.04 0.08,0.04 0.04,0 0.06,-0.02 0.04,-0.05 -0.01,-0.03 -0.01,-0.05 0.02,-0.05 0.03,0 0.06,0.02 0.07,0.04 0.01,0.05 1.12,0.22 1.48,0.23 0.09,0 0.18,0.03 0.22,0.06 0.03,0.04 0.18,0.08 0.33,0.1 0.14,0.02 0.31,0.06 0.36,0.09 0.08,0.04 0.11,0.03 0.12,-0.01 0.02,-0.04 0.05,-0.03 0.09,0.04 0.04,0.05 0.16,0.11 0.26,0.13 0.11,0.02 0.25,0.08 0.33,0.13 0.07,0.06 0.15,0.1 0.18,0.1 0.02,0 0.15,0.08 0.29,0.17 0.15,0.1 0.27,0.15 0.29,0.12 0.01,-0.02 0.04,0 0.06,0.06 0.01,0.06 0.07,0.12 0.12,0.14 0.1,0.02 0.12,0.06 0.31,0.44 0.16,0.33 0.13,0.7 -0.1,1.03 -0.08,0.12 -0.13,0.22 -0.11,0.22 0.07,0 -0.94,0.52 -1.05,0.54 -0.04,0 -0.22,0.06 -0.4,0.11 -0.18,0.06 -0.57,0.14 -0.85,0.19 -0.29,0.05 -0.52,0.11 -0.52,0.13 0,0.02 -0.03,0.04 -0.06,0.04 -0.03,0 -0.04,-0.02 -0.02,-0.05 0.04,-0.05 -0.09,-0.07 -0.14,-0.02 -0.02,0.02 -0.14,0.04 -0.28,0.05 -0.92,0.04 -1.81,0.14 -1.87,0.21 -0.04,0.06 -0.06,0.06 -0.08,0.01 -0.02,-0.06 -0.04,-0.06 -0.13,-0.01 -0.06,0.04 -0.11,0.05 -0.11,0.02 0,-0.03 -0.03,-0.06 -0.07,-0.06 -0.05,0 -0.08,0.03 -0.08,0.06 0,0.03 -0.04,0.02 -0.11,-0.02 -0.09,-0.05 -0.11,-0.05 -0.13,0.01 -0.02,0.06 -0.03,0.06 -0.07,0 -0.03,-0.06 -0.06,-0.06 -0.14,-0.01 -0.07,0.04 -0.11,0.05 -0.11,0.02 0,-0.03 -0.03,-0.06 -0.07,-0.06 -0.05,0 -0.08,0.03 -0.08,0.06 0,0.03 -0.04,0.02 -0.1,-0.02 -0.09,-0.05 -0.11,-0.05 -0.15,0.02 -0.03,0.04 -0.05,0.05 -0.05,0.01 0,-0.08 -0.36,-0.11 -0.39,-0.03 -0.02,0.04 -0.05,0.05 -0.08,0.04 -0.02,-0.02 -0.03,-0.05 -0.01,-0.08 0.01,-0.03 -0.05,-0.05 -0.15,-0.05 -0.1,-0.01 -0.2,-0.01 -0.22,-0.02 -0.07,-0.02 -1.1,-0.1 -1.19,-0.1 -0.05,0 -0.09,-0.01 -0.09,-0.04 0,-0.02 -0.04,-0.04 -0.08,-0.04 -0.04,0 -0.07,0.02 -0.07,0.05 0,0.03 -0.03,0.05 -0.05,0.05 -0.03,0 -0.06,-0.03 -0.06,-0.07 0,-0.07 -0.76,-0.25 -0.88,-0.2 -0.04,0.02 -0.08,0.01 -0.08,-0.02 0,-0.06 -0.55,-0.24 -0.59,-0.2 -0.01,0.02 -0.11,-0.03 -0.2,-0.09 -0.1,-0.07 -0.22,-0.13 -0.26,-0.13 -0.04,0 -0.15,-0.05 -0.24,-0.12 -0.1,-0.07 -0.21,-0.13 -0.26,-0.13 -0.05,0 -0.07,-0.02 -0.05,-0.03 0.05,-0.06 -0.12,-0.22 -0.2,-0.19 -0.07,0.03 -0.08,-0.03 -0.09,-0.59 l -0.01,-0.39 0.26,-0.25 c 0.25,-0.25 0.54,-0.4 0.65,-0.34 0.03,0.02 0.04,0.01 0.02,-0.01 -0.04,-0.04 0.07,-0.18 0.11,-0.15 0.03,0.02 0.45,-0.09 0.61,-0.16 0.09,-0.04 0.08,-0.04 0.72,-0.15 0.27,-0.05 0.49,-0.1 0.49,-0.12 0,-0.04 0.1,-0.04 1.78,-0.04 1.59,0 1.89,0.01 1.57,0.09 -0.1,0.02 -0.52,0.06 -0.94,0.07 -0.42,0.02 -0.79,0.05 -0.83,0.07 -0.05,0.01 -0.23,0.03 -0.41,0.04 -0.35,0.02 -1.06,0.17 -1.06,0.22 0,0.02 -0.07,0.04 -0.15,0.04 -0.17,0 -0.56,0.16 -0.56,0.22 0,0.02 -0.04,0.04 -0.09,0.03 -0.12,0 -0.57,0.27 -0.61,0.37 -0.02,0.04 -0.06,0.1 -0.09,0.13 -0.13,0.11 -0.13,0.31 0,0.5 0.07,0.1 0.13,0.21 0.13,0.24 0,0.02 0.02,0.04 0.04,0.04 0.03,0 0.13,0.07 0.24,0.16 0.1,0.08 0.23,0.15 0.29,0.15 0.05,0 0.08,0.02 0.06,0.04 -0.03,0.06 0.32,0.23 0.41,0.19 0.03,-0.01 0.07,0.02 0.09,0.07 0.01,0.05 0.05,0.09 0.09,0.09 0.04,0.01 0.16,0.03 0.27,0.06 0.1,0.03 0.22,0.04 0.26,0.02 0.04,-0.01 0.07,0 0.07,0.02 0,0.1 1.06,0.23 1.94,0.24 0.24,0 0.44,0.02 0.44,0.04 0,0.06 1.26,0.05 1.3,-0.01 0.02,-0.03 0.08,-0.04 0.13,-0.02 0.07,0.02 0.12,0 0.15,-0.04 0.03,-0.05 0.04,-0.05 0.04,-0.01 0.01,0.05 0.08,0.06 0.29,0.04 0.39,-0.03 1.05,-0.16 1.08,-0.21 0.02,-0.02 0.1,-0.04 0.18,-0.05 0.26,-0.02 0.53,-0.13 0.53,-0.21 0,-0.06 0.01,-0.07 0.05,-0.02 0.03,0.05 0.12,0.02 0.4,-0.12 0.2,-0.1 0.4,-0.22 0.43,-0.28 0.03,-0.05 0.09,-0.09 0.12,-0.09 0.08,0 0.23,-0.3 0.2,-0.39 -0.02,-0.04 -0.01,-0.07 0.02,-0.07 0.03,0 0.05,-0.03 0.05,-0.08 0,-0.04 -0.02,-0.07 -0.05,-0.07 -0.04,0 -0.05,-0.03 -0.04,-0.07 0.07,-0.17 -0.48,-0.74 -0.65,-0.67 -0.06,0.02 -0.07,0.01 -0.05,-0.05 0.04,-0.1 -0.74,-0.5 -0.9,-0.45 -0.08,0.02 -0.09,0.01 -0.04,-0.02 0.06,-0.04 0.02,-0.07 -0.15,-0.11 -0.12,-0.04 -0.26,-0.07 -0.31,-0.08 -0.05,-0.01 -0.11,-0.03 -0.14,-0.05 -0.03,-0.01 -0.05,0 -0.05,0.04 0,0.05 -0.02,0.04 -0.07,-0.02 -0.07,-0.09 -0.6,-0.21 -0.95,-0.22 -0.14,0 -0.25,-0.02 -0.25,-0.04 0,-0.02 -0.03,-0.04 -0.07,-0.04 -0.05,0 -0.08,0.03 -0.08,0.05 0,0.03 -0.02,0.06 -0.05,0.06 -0.03,0 -0.04,-0.03 -0.03,-0.06 0.02,-0.02 0.02,-0.05 -0.01,-0.05 -0.02,0 -0.08,-0.01 -0.14,-0.03 -0.17,-0.03 -1.91,-0.03 -2.38,0.01 -0.25,0.02 -0.47,0.06 -0.49,0.09 -0.03,0.04 -0.04,0.04 -0.04,-0.01 0,-0.03 -0.03,-0.05 -0.06,-0.03 -0.03,0.02 -0.24,0.05 -0.47,0.06 -0.23,0.01 -0.53,0.04 -0.69,0.07 -0.33,0.06 -0.4,0.06 -0.4,0 0,-0.05 0.15,-0.1 0.37,-0.14 0.26,-0.03 0.54,-0.12 0.54,-0.16 0,-0.02 0.04,-0.04 0.09,-0.04 0.05,0 0.23,-0.01 0.42,-0.04 0.29,-0.03 0.34,-0.06 0.41,-0.19 0.05,-0.08 0.11,-0.14 0.14,-0.12 0.03,0.02 0.05,0.02 0.05,-0.01 -0.03,-0.12 0.08,-0.38 0.16,-0.41 0.13,-0.03 0.12,-0.04 -0.06,-0.26 -0.08,-0.1 -0.17,-0.2 -0.19,-0.22 -0.02,-0.03 -0.14,-0.14 -0.26,-0.24 -0.2,-0.18 -0.22,-0.21 -0.14,-0.25 0.05,-0.03 0.09,-0.09 0.09,-0.13 0,-0.05 0.02,-0.07 0.05,-0.05 0.07,0.05 0.21,-0.08 0.18,-0.15 -0.01,-0.04 0.02,-0.08 0.07,-0.09 0.13,-0.04 0.21,-0.24 0.13,-0.35 -0.03,-0.05 -0.09,-0.08 -0.13,-0.07 -0.06,0.02 -0.08,-0.01 -0.08,-0.11 0.01,-0.14 0.22,-0.39 0.37,-0.44 0.05,-0.02 0.16,-0.09 0.24,-0.16 0.19,-0.15 0.18,-0.14 0.18,-0.05 m 1.67,4.26 c 0,0.04 -0.02,0.07 -0.05,0.07 -0.03,0 -0.05,0.04 -0.05,0.08 0,0.04 0.03,0.08 0.06,0.08 0.05,0 0.05,0.01 0.01,0.05 -0.08,0.08 0.09,0.53 0.27,0.72 0.08,0.08 0.26,0.2 0.4,0.27 0.47,0.23 1.29,0.16 1.78,-0.16 0.07,-0.04 0.1,-0.1 0.09,-0.13 -0.02,-0.03 -0.01,-0.05 0.03,-0.03 0.13,0.04 0.26,-0.06 0.22,-0.18 -0.02,-0.08 -0.01,-0.1 0.05,-0.07 0.05,0.02 0.11,-0.03 0.18,-0.15 0.1,-0.17 0.11,-0.17 0.27,-0.1 0.09,0.03 0.19,0.05 0.23,0.04 0.03,-0.01 0.06,0.01 0.05,0.05 -0.01,0.03 0.03,0.08 0.09,0.11 0.06,0.03 0.14,0.15 0.2,0.27 0.08,0.22 0.08,0.23 0,0.4 -0.05,0.09 -0.15,0.19 -0.21,0.22 -0.07,0.03 -0.11,0.08 -0.11,0.12 0.01,0.03 -0.01,0.06 -0.04,0.05 -0.09,-0.02 -0.43,0.13 -0.43,0.18 0,0.03 -0.02,0.05 -0.06,0.04 -0.1,-0.01 -0.65,0.17 -0.65,0.21 0,0.02 -0.09,0.04 -0.21,0.05 -0.39,0.02 -1.2,0.18 -1.21,0.24 0,0.03 -0.02,0.02 -0.04,-0.02 -0.03,-0.04 -0.08,-0.06 -0.14,-0.03 -0.12,0.05 -1.74,0.05 -1.85,0 -0.06,-0.02 -0.09,-0.01 -0.09,0.03 0,0.06 -0.02,0.05 -0.05,0 -0.04,-0.07 -0.07,-0.07 -0.15,-0.02 -0.06,0.04 -0.11,0.05 -0.11,0.02 0,-0.05 -0.79,-0.21 -1.16,-0.22 -0.14,-0.01 -0.26,-0.02 -0.26,-0.04 0,-0.04 -0.38,-0.14 -0.69,-0.18 -0.15,-0.02 -0.27,-0.05 -0.27,-0.07 0,-0.03 -0.36,-0.18 -0.39,-0.16 -0.01,0 -0.08,-0.07 -0.16,-0.15 -0.16,-0.16 -0.24,-0.35 -0.21,-0.53 0.01,-0.13 0.23,-0.36 0.41,-0.43 0.08,-0.03 0.15,-0.08 0.15,-0.1 0,-0.02 0.08,-0.05 0.17,-0.07 0.1,-0.02 0.27,-0.07 0.37,-0.12 0.11,-0.04 0.23,-0.08 0.27,-0.09 0.04,0 0.21,-0.04 0.37,-0.07 0.16,-0.04 0.33,-0.05 0.37,-0.03 0.04,0.01 0.06,0 0.05,-0.02 -0.02,-0.02 0,-0.07 0.05,-0.11 0.05,-0.04 0.07,-0.04 0.07,0 0,0.03 0.04,0.05 0.08,0.05 0.04,0 0.07,-0.02 0.07,-0.04 0,-0.03 0.08,-0.04 0.17,-0.03 0.09,0 0.36,-0.01 0.59,-0.03 0.24,-0.02 0.67,-0.04 0.95,-0.04 0.44,-0.01 0.52,0.01 0.52,0.07 m 2.56,0.21 c 0.23,0.03 0.28,0.04 0.22,0.09 -0.04,0.03 -0.15,0.16 -0.24,0.29 -0.19,0.29 -0.33,0.39 -0.62,0.45 -0.12,0.03 -0.26,0.06 -0.32,0.08 -0.06,0.02 0.02,-0.08 0.17,-0.22 0.26,-0.24 0.28,-0.26 0.28,-0.51 0.01,-0.24 0.02,-0.27 0.11,-0.24 0.05,0.01 0.23,0.04 0.4,0.06"
+         id="gge30"
+         inkscape:connector-curvature="0"
+         style="stroke:none;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+    </g>
+  </g>
+</svg>
