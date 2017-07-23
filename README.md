@@ -9,7 +9,8 @@ I started off just wanting to build a simple led 'learn to solder' badge, but, w
 * https://github.com/tinkerlog/fireflies
 
 ## Couldn't have done it without
-* https://www.marcelpost.com/wiki/index.php/ATtiny85_ADC
-* https://github.com/SpenceKonde/ATTinyCore
-* http://tuomasnylund.fi/drupal6/content/capacitive-touch-sensing-avr-and-single-adc-pin
-* https://github.com/cpldcpu/TinyTouchLib
+* https://github.com/SpenceKonde/ATTinyCore -- This is the core used with the Ardiuno IDE to work with the ATtiny45
+* https://www.marcelpost.com/wiki/index.php/ATtiny85_ADC --  for when I couldn't get analog readings to work, remove the abstraction
+* https://github.com/cpldcpu/TinyTouchLib -- single pin captouch / qTouch
+* http://tuomasnylund.fi/drupal6/content/capacitive-touch-sensing-avr-and-single-adc-pin -- how qTouch works
+* https://www.sparkfun.com/tutorials/329 -- fun led fades
