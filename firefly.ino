@@ -17,11 +17,10 @@
  * battery added, setup function begins, 
  * hello blink,take ref readings, random pause before normal opperations
  * 
- * {{what if the badge isn't placed down for ref to be taken}}
  * 
  * modes
  * if night, blind, firefly blink, blind, sense (light and touch) for period until next blink; 
- *    light sense advances next blink period { how to sence blink light vs daylight }
+ *    light sense advances next blink period
  * if day, no blink, low power mode, less frequent sensing to tell it it's become night, or if captouch
  * 
  * touch signals:
@@ -39,17 +38,20 @@
   #define touch1Pin A3
   #define touch2Pin A2
 
-
-  #define day 90
-  #define flash 20
-
+//Configuration variables
+  #define mainloopdelay 100 // sample every x ms
+  #define day 90 //photocell day vs night value
+  #define percentblink 1.1 // x * average to trigger blinkdetect
+  #define flashadvance 200 //skip forward x on blink detect
+  #define blinkfreq 8000 // Blink every x
+//
   #define tt_off 0
   #define tt_on 1
   #define tt_push 2
   #define tt_release 3
   #define tt_timeout 4
 
-  #define numReadings 20
+  #define numReadings 20 // x readings for average light
 
   uint8_t photoVal = 0;
   uint8_t photoReadings[numReadings];
@@ -98,7 +100,7 @@ void init_blink(uint8_t a){
 }
 
 void firefly_blink(){
-  if (currentMillis - lastMillis > 8000){
+  if (currentMillis - lastMillis > blinkfreq){
     //blink with nice sinlog fade effect
       float in, out;
       // < 10.995 = one wave, < 17.278 = two
@@ -137,7 +139,7 @@ void loop() {
   if (currentMillis < lastMillis) { lastMillis = currentMillis; currentMillis++; } // rollover protection
 
 // get current vals  and do logic
-  delay(100); // don't sample more than 10x a second
+  delay(mainloopdelay); // don't sample more than x a second
   photoVal = get_photo();
   
 // make photoAvg
@@ -153,13 +155,12 @@ void loop() {
   if (tinytouch_sense()==tt_push) { init_blink(2); wingOverride = !wingOverride; }
 
   if (photoAvg < day ) { // we think it's nighttime
-    if (photoVal > photoAvg*1.1) {
-      //init_blink(1);
-      lastMillis = lastMillis - 100;
+    if (photoVal > photoAvg*percentblink) {
+      lastMillis = lastMillis - flashadvance;
     }
     firefly_blink();    
   } else if ( wingOverride) {
-        firefly_blink();
+      firefly_blink();
   }
 
 }
