@@ -5,6 +5,8 @@ I started off just wanting to build a simple led 'learn to solder' badge, but, w
 
 Schematic and BOM - https://easyeda.com/chriscook8/firefly-14b9a966c0084510be2fbed9457bff87
 
+![Firefly PCB](/img/firefly-PCB.png?raw=true "Firefly PCB")
+
 ## Inspriation
 * https://tinkerlog.com/howto/synchronizing-firefly-how-to/
 * http://www.instructables.com/id/Synchronizing-Fireflies/
