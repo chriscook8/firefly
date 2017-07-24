@@ -43,6 +43,7 @@
   #define day 90 //photocell day vs night value
   #define percentblink 1.1 // x * average to trigger blinkdetect
   #define flashadvance 200 //skip forward x on blink detect
+  #define goblind 500 // pause after bink detect
   #define blinkfreq 8000 // Blink every x
 //
   #define tt_off 0
@@ -157,6 +158,7 @@ void loop() {
   if (photoAvg < day ) { // we think it's nighttime
     if (photoVal > photoAvg*percentblink) {
       lastMillis = lastMillis - flashadvance;
+      delay(goblind);
     }
     firefly_blink();    
   } else if ( wingOverride) {
