@@ -42,13 +42,9 @@
   #define mainloopdelay 100 // sample every x ms
   #define day 90 //photocell day vs night value
   #define percentblink 1.1 // x * average to trigger blinkdetect
-  #define blinksinarow 10 // x blinks in a row? reset photoavg
-  #define flashadvance 100 //skip forward x on blink detect
-  #define goblind 2000 // pause after bink detect
+  #define flashadvance 150 //skip forward x on blink detect
   #define blinkfreq 8000 // Blink every x
-  #define startingAVG 200 // starting value for photoAvg
   #define numReadings 10 // x readings for average light
-  #define startingTotal (startingAVG * numReadings)
 //
   #define tt_off 0
   #define tt_on 1
@@ -56,15 +52,29 @@
   #define tt_release 3
   #define tt_timeout 4
 
+  #define tenMin (1000*60*10)
+
+#include <avr/wdt.h>
+#define soft_reset()        \
+do                          \
+{                           \
+    wdt_enable(WDTO_15MS);  \
+    for(;;)                 \
+    {                       \
+    }                       \
+} while(0)
+
 
   uint8_t photoVal = 0;
   uint8_t photoReadings[numReadings];
   uint8_t photoCounter = 0;
-  uint8_t photoAvg = startingAVG;
-  uint16_t photoTotal = startingTotal;
+  uint8_t photoAvg = 0;
+  uint16_t photoTotal = 0;
   uint8_t blinkCount = 0;
     
   boolean wingOverride = false;
+  boolean wasOff = false;
+
   unsigned long lastMillis = 0;
   unsigned long currentMillis = 0;
 
@@ -132,17 +142,19 @@ void updateAvg(){
   photoAvg = photoTotal / numReadings;
 }
 
-void resetPhotoAvg(uint8_t a){
-    for (uint8_t cnt = 0; cnt < numReadings; cnt++) {
-    photoReadings[cnt] = a;
-  }
+void resetPhotoAvg(){
+  for ( int a=0; a < numReadings; a++) { updateAvg(); }
 }
 
 void setup() {  
+
+  MCUSR = 0;
+  wdt_disable();
+    
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);
 
-  resetPhotoAvg(photoAvg);
+  resetPhotoAvg();
   
   init_ADC();
   tinytouch_init();
@@ -157,7 +169,8 @@ void loop() {
 
 //set time
   currentMillis = millis();
-  if (currentMillis < lastMillis) { lastMillis = currentMillis; currentMillis++; } // rollover protection
+ // if (millis() > tenMin) { soft_reset(); } //
+ // if (currentMillis < lastMillis) { lastMillis = currentMillis; currentMillis++; } // rollover protection
 
 // get current vals  and do logic
   delay(mainloopdelay); // don't sample more than x a second
@@ -165,20 +178,16 @@ void loop() {
     
   if (tinytouch_sense()==tt_push) { init_blink(2); wingOverride = !wingOverride; }
 
-  if (photoAvg < day){
-    if (photoVal > photoAvg*percentblink) { 
+  if (photoVal < day){
+    if ( wasOff ) { 
+      wasOff = false;
+      resetPhotoAvg();
+      } else if (photoVal > photoAvg*percentblink) { 
           lastMillis = lastMillis - flashadvance;
-          blinkCount++;
-    } else {
-      if (blinkCount > 0) { blinkCount--; }
-      updateAvg();
-    }
-    if (blinkCount > blinksinarow) { resetPhotoAvg(photoVal); } // ten blinks in a row? probably a new light level
-  } else {
-      updateAvg();
-  }
+          }    
+    } else { wasOff = true; }
 
-  if ( photoAvg < day || wingOverride) {
+  if ( photoVal < day || wingOverride) {
     firefly_blink();
   }
 
