@@ -42,9 +42,13 @@
   #define mainloopdelay 100 // sample every x ms
   #define day 90 //photocell day vs night value
   #define percentblink 1.1 // x * average to trigger blinkdetect
-  #define flashadvance 200 //skip forward x on blink detect
-  #define goblind 500 // pause after bink detect
+  #define blinksinarow 10 // x blinks in a row? reset photoavg
+  #define flashadvance 100 //skip forward x on blink detect
+  #define goblind 2000 // pause after bink detect
   #define blinkfreq 8000 // Blink every x
+  #define startingAVG 200 // starting value for photoAvg
+  #define numReadings 10 // x readings for average light
+  #define startingTotal (startingAVG * numReadings)
 //
   #define tt_off 0
   #define tt_on 1
@@ -52,13 +56,13 @@
   #define tt_release 3
   #define tt_timeout 4
 
-  #define numReadings 20 // x readings for average light
 
   uint8_t photoVal = 0;
   uint8_t photoReadings[numReadings];
   uint8_t photoCounter = 0;
-  uint16_t photoTotal = 0;
-  uint8_t photoAvg = 0;
+  uint8_t photoAvg = startingAVG;
+  uint16_t photoTotal = startingTotal;
+  uint8_t blinkCount = 0;
     
   boolean wingOverride = false;
   unsigned long lastMillis = 0;
@@ -116,14 +120,30 @@ void firefly_blink(){
   }
 }
 
+void updateAvg(){
+  // make photoAvg
+  photoTotal = photoTotal - photoReadings[photoCounter];
+  photoReadings[photoCounter] = photoVal;
+  photoTotal = photoTotal + photoReadings[photoCounter];
+  photoCounter = photoCounter + 1;
+  if (photoCounter >= numReadings) {
+    photoCounter = 0;
+  }
+  photoAvg = photoTotal / numReadings;
+}
+
+void resetPhotoAvg(uint8_t a){
+    for (uint8_t cnt = 0; cnt < numReadings; cnt++) {
+    photoReadings[cnt] = a;
+  }
+}
+
 void setup() {  
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);
 
-  for (uint8_t cnt = 0; cnt < numReadings; cnt++) {
-    photoReadings[cnt] = 0;
-  }
-
+  resetPhotoAvg(photoAvg);
+  
   init_ADC();
   tinytouch_init();
 
@@ -142,27 +162,24 @@ void loop() {
 // get current vals  and do logic
   delay(mainloopdelay); // don't sample more than x a second
   photoVal = get_photo();
-  
-// make photoAvg
-  photoTotal = photoTotal - photoReadings[photoCounter];
-  photoReadings[photoCounter] = photoVal;
-  photoTotal = photoTotal + photoReadings[photoCounter];
-  photoCounter = photoCounter + 1;
-  if (photoCounter >= numReadings) {
-    photoCounter = 0;
-  }
-  photoAvg = photoTotal / numReadings;
-  
+    
   if (tinytouch_sense()==tt_push) { init_blink(2); wingOverride = !wingOverride; }
 
-  if (photoAvg < day ) { // we think it's nighttime
-    if (photoVal > photoAvg*percentblink) {
-      lastMillis = lastMillis - flashadvance;
-      delay(goblind);
+  if (photoAvg < day){
+    if (photoVal > photoAvg*percentblink) { 
+          lastMillis = lastMillis - flashadvance;
+          blinkCount++;
+    } else {
+      if (blinkCount > 0) { blinkCount--; }
+      updateAvg();
     }
-    firefly_blink();    
-  } else if ( wingOverride) {
-      firefly_blink();
+    if (blinkCount > blinksinarow) { resetPhotoAvg(photoVal); } // ten blinks in a row? probably a new light level
+  } else {
+      updateAvg();
+  }
+
+  if ( photoAvg < day || wingOverride) {
+    firefly_blink();
   }
 
 }
